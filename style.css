@@ -13,8 +13,6 @@
     font-family: Rubik;
     font-size: 35px;
     margin-left: 43%;
-    
- 
 }
 .navbar .navbar-brand {
     color: black !important ;
@@ -22,4 +20,22 @@
 
 .nav-item{
     font-size: 20px;
+}
+
+#sec_1{
+    background-color: black;
+    color:white;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+p{
+    font-size: 30px;
+    padding-top: 70px;
 }
