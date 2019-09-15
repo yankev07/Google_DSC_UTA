@@ -1,0 +1,25 @@
+.hello{
+    /* width:350px;
+    height:320px; */
+    /* background: -webkit-linear-gradient(110deg, #F4B400 50%, #4285F4 40%, red 10%); */
+    /* background: -o-linear-gradient(110deg, #fdcd3b 50%, #263238 50%); */
+    /* background: -moz-linear-gradient(110deg, #fdcd3b 50%, #263238 50%);
+    background: linear-gradient(110deg, #fdcd3b 50%, #263238 50%); */
+    /* color: #fff; */
+       /*Google_Green- 0F9D58*/ 
+    background: -webkit-linear-gradient(120deg, #4285F4 33%, rgba(0, 0, 0, 0) 33%), -webkit-linear-gradient(120deg, #0F9D58 66%, #DB4437 66%);
+}
+.navbar-brand{
+    font-family: Rubik;
+    font-size: 35px;
+    margin-left: 43%;
+    
+ 
+}
+.navbar .navbar-brand {
+    color: black !important ;
+}
+
+.nav-item{
+    font-size: 20px;
+}
