@@ -2,6 +2,7 @@
     font-family: "Open Sans", sans-serif;
     color: #4e4e4e;
     font-size: 25px;
+
 }
 
 .navbar .navbar-brand {
@@ -19,20 +20,32 @@ Green: #0F9D58
 
 */
 
+.navbar .navbar-toggler{
+    color: red !important;
+    background-color: red !important;
+}
+
+.navbar .nav-item{
+    color:black !important;
+    /* background-color: black; */
+}
+.navbar .nav-item:hover{
+    color: #4285F4 !important;
+}
 
 
 
 .navbar {
-    -webkit-box-shadow: 0 8px 6px -6px #999;
+    /* -webkit-box-shadow: 0 8px 6px -6px #999;
     -moz-box-shadow: 0 8px 6px -6px #999;
-    box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999; */
     background-color: white !important;
-    height: 65px;
+    min-height: 65px;
 }
 
-.last-item {
+/* .last-item {
     padding-right: 20px !important;
-}
+} */
 
 /* img {
     margin-left: 10%;
@@ -196,24 +209,43 @@ ul.v-slides {
     }
 
     .section {
-        padding-top: 100px;
+       padding-top: 130px;
     }
     .carousel-inner img {
         height:250px;
       }
-}
-
-@media screen and(min-width:721px) and (max-width:1300) {
-    p {
-        padding-left: 3rem;
-        padding-right: 3rem;
-    }
-    .carousel-inner img {
-        height:300px;
+      .section-a{
+          padding-top:350px;
+      }
+      .section-c{
+          padding-bottom:100px;
       }
 }
 
-@media screen and (max-width: 769px){
-    .sec0{padding-top: 100px;}
+.fo{
+    font-size:3rem;
 }
+
+@media (max-width: 767px) {
+    #pushContent {
+    height: 222.5px;
+    width:100%;
+    display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #pushContent {
+    height: 222.5px;
+    width:100%;
+    display: none;
+    }
+}
+.fa-heart{
+    color:red;
+}
+a:hover {
+    text-decoration: underline;
+   }
+
 

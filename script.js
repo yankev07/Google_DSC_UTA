@@ -35,3 +35,7 @@
 $('.navbar-nav>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
+
+$('.navbar-toggler-icon').on("click", function(){
+  $('#pushContent').slideToggle();
+});
