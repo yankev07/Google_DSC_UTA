@@ -19,3 +19,19 @@
     })
   })
   vSlide.play()
+
+//   function get_action(form) {
+//     form.action = "https://docs.google.com/forms/d/e/1FAIpQLSf5FpEwKQ3MhqBeQyJzAmTzjpjRfNEVrGV39Ith0we-JWgTzg/formResponse";
+//     document.getElementById("form-box").reset();
+// }
+
+
+  function formSubmit() {
+   // document.getElementById("form-box").action = "https://docs.google.com/forms/d/e/1FAIpQLSf5FpEwKQ3MhqBeQyJzAmTzjpjRfNEVrGV39Ith0we-JWgTzg/formResponse";
+    document.getElementById("form-box").submit();
+    document.getElementById("form-box").reset();
+  }
+
+$('.navbar-nav>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
