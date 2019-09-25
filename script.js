@@ -8,7 +8,6 @@
   var vSlide = new TimelineMax({
     paused: true,
     repeat: -1
-    // yoyo: true
   })
   
   vsOpts.$slides.each(function(i) {
@@ -19,11 +18,6 @@
     })
   })
   vSlide.play()
-
-//   function get_action(form) {
-//     form.action = "https://docs.google.com/forms/d/e/1FAIpQLSf5FpEwKQ3MhqBeQyJzAmTzjpjRfNEVrGV39Ith0we-JWgTzg/formResponse";
-//     document.getElementById("form-box").reset();
-// }
 
 
   function formSubmit() {
@@ -36,6 +30,6 @@ $('.navbar-nav>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
 
-$('.navbar-toggler-icon').on("click", function(){
-  $('#pushContent').slideToggle();
+$(window).on('hashchange', function(e){
+    history.replaceState ("", document.title, e.originalEvent.oldURL);
 });

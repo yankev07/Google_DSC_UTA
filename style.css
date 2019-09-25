@@ -21,8 +21,8 @@ Green: #0F9D58
 */
 
 .navbar .navbar-toggler{
-    color: red !important;
-    background-color: red !important;
+    /* color: red !important; */
+    background-color: #4285F4 !important;
 }
 
 .navbar .nav-item{
@@ -68,9 +68,9 @@ body {
     font-size: 1.2rem;
     font-weight: normal;
     line-height: 1.5;
-    color: #333;
+    color: white;
     text-align: center;
-
+/* background-color: #4e4e4e; */
     /* overflow-x: hidden !important; */
 }
 
@@ -83,18 +83,19 @@ body {
     text-align: center;
 }
 
-/* p {
+
+.fi{
     font-size: 3.5vmin;
     display: block;
     padding-bottom: 2rem;
     color: #231f34;
     padding-left: 10rem;
     padding-right: 10rem;
-} */
+}
 
 h1 {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #757575;
+    color: black;;
     font-size: 9vmax;
 }
 
@@ -202,7 +203,7 @@ ul.v-slides {
   }
 
 @media screen and (max-width:960px) {
-    p {
+    .fi{
         font-size: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
