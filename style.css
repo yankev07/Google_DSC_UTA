@@ -126,7 +126,14 @@ ul.v-slides {
 }
 
 .rounded-circle{
+    /* width: 180px;
+    height: 180px; */
+    display: inline-block;
+    /* position: relative; */
     width: 180px;
+    height: 180px;
+    /* overflow: hidden;  */
+    border-radius: 50%;
 }
 
 .row1 {
